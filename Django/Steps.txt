@@ -1,0 +1,20 @@
+Update pip 
+=> python -m pip install --upgrade pip
+
+Install virtual environment
+=> pip install virtualenv
+
+Create virtual environment
+=> virtualenv myenv
+
+Activate virtual environment
+=> cd ..\myenv\scripts\activate
+
+Install Django
+=> pip install django
+
+Check version
+=> python -m django --version
+
+Create django project
+=> django-admin startproject portfolio .
