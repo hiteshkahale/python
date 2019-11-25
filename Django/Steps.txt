@@ -18,3 +18,21 @@ Check version
 
 Create django project
 => django-admin startproject portfolio .
+
+Running Django development server
+=> python manage.py runserver 8001(default is 8000)
+
+Creating Django App
+=> python manage.py startapp appname
+
+Registering your app
+=> INSTALLED_APPS = [
+    'courses.app.CoursesConfig',
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+]
+
